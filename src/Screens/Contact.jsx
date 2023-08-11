@@ -21,9 +21,10 @@ export default function Contact() {
     })
   }
 
-  function submitHandler(e){
-    e.preventDefault()
-  }
+  // function submitHandler(e){
+  //   e.preventDefault()
+  //   console.log({e})
+  // }
  
 
   return (
@@ -38,10 +39,10 @@ export default function Contact() {
       </div>
       <div className="contact-text">
         <h1>You can reach me any time🙂 </h1>
-        <p className='normal-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+        <p className='normal-text'>I am open to opportunities where I can apply my knowledge to build scalable software products with the latest on demand technologies. Feel free to contact me via mail or my socials for open roles, collaborations, mentorship, or just to say Hi 👋</p>
 
         <div className="form">
-          <form onSubmit={submitHandler}>
+          <form action="https://formspree.io/f/mrgroapp" method="POST">
             <div className='form-input'>
               <input
                 placeholder='Name'

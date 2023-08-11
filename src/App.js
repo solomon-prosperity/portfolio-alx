@@ -10,7 +10,7 @@ function App() {
 
         <AnimatedRoutes />
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
   );
 }

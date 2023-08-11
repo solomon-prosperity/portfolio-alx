@@ -25,13 +25,15 @@ export default function Navbar() {
                     <Link to='/bio'>Bio</Link>
                 </li>
 
-                {/* <li onClick={handleClick} className={location.pathname === '/contact' ? 'show-dot' : ""}><Link to='/contact'>Contact</Link></li> */}
+                
 
-
-                <li onClick={handleClick} className={location.pathname === '/portfolio' ? 'show-dot' : ""}><Link to='/portfolio'>portfolio</Link></li>
+                <li onClick={handleClick} className={location.pathname === '/portfolio' ? 'show-dot' : ""}><Link to='/portfolio'>Portfolio</Link></li>
 
 
                 <li onClick={handleClick} className={location.pathname === '/elevator-pitch' ? 'show-dot' : ""}><Link to='/elevator-pitch'>Elevator Pitch</Link></li>
+
+                <li onClick={handleClick} className={location.pathname === '/contact' ? 'show-dot' : ""}><Link to='/contact'>Contact Me</Link></li>
+
             </ul>
         </div>
     )

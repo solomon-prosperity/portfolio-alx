@@ -14,7 +14,7 @@ export default function Projects() {
       exit={{ y: window.innerWidth, transition: { duration: '0.1' } }}
       className="projects"
     >
-      <h1>These are my awesome projects</h1>
+      <h1><span className="c-orange">Some</span> of my <span className="c-orange">Awesome</span> Projects</h1>
       {/* <div className="project-item">
         {projectData.map((p, i) => {
           return (
