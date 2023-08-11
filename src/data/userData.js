@@ -11,7 +11,7 @@ export const userData = {
   slideTitle: 'Medic Buddy: A Telemedicine tool to address deficit in access to healthcare ',
   slideDescription: `The problem of inadequate healthcare facilities and professionals in Nigeria is of utmost importance as it directly impacts the accessibility and quality of healthcare services, potentially resulting in delayed or substandard care for individuals in need. This can lead to adverse health outcomes, exacerbate health inequalities, and hinder the overall development and well-being of the population.  `,
   slideImage: slide,
-  slideLink: `https://docs.google.com/presentation/d/1iwjk27BP1XjpJFp6HE-Gi8EK_FR0aGSwyS6Rid3IMIA/edit?usp=sharing`,
+  slideLink: `https://drive.google.com/file/d/1NbjVeWEFket4eE55lXIjs4BkXUMczFag/view?usp=sharing`,
 
   elevator1: `Hello, I'm Prosper Eravwuvieke, an accomplished software engineer with experience specializing in creating user-friendly mobile apps and scalable backend systems. What sets me apart is my passion for innovation, always staying ahead of industry trends to deliver cutting-edge solutions.`,
   elevator2: `Throughout my career, I've successfully developed mobile apps that reached millions of users and designed backend systems that handled complex data processing with exceptional efficiency. One of my proudest achievements includes optimizing a critical algorithm that resulted in a 30% reduction in processing time for a high-traffic application.`,

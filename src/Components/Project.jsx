@@ -22,7 +22,7 @@ export default function Project({ project }) {
       <div className="p-body">
         <h3>{project.title}</h3>
         <p>{project.description}</p>
-        <a href={project.link} target="_blank">
+        <a href={project.link} target="_blank" rel="noreferrer">
           View project <span>{" "}</span> <i className="fa-solid fa-up-right-from-square"></i>
         </a>
       </div>
