@@ -21,17 +21,17 @@ export default function Navbar() {
             >
                 <li onClick={handleClick} className={location.pathname === '/' ? 'show-dot' : ''} ><Link to='/'>Home</Link></li>
 
-                <li onClick={handleClick} className={location.pathname === '/about' ? 'show-dot' : ''}>
-                    <Link to='/about'>About</Link>
+                <li onClick={handleClick} className={location.pathname === '/bio' ? 'show-dot' : ''}>
+                    <Link to='/bio'>Bio</Link>
                 </li>
 
-                <li onClick={handleClick} className={location.pathname === '/contact' ? 'show-dot' : ""}><Link to='/contact'>Contact</Link></li>
+                {/* <li onClick={handleClick} className={location.pathname === '/contact' ? 'show-dot' : ""}><Link to='/contact'>Contact</Link></li> */}
 
 
-                <li onClick={handleClick} className={location.pathname === '/projects' ? 'show-dot' : ""}><Link to='/projects'>Projects</Link></li>
+                <li onClick={handleClick} className={location.pathname === '/portfolio' ? 'show-dot' : ""}><Link to='/portfolio'>portfolio</Link></li>
 
 
-                <li onClick={handleClick} className={location.pathname === '/blog' ? 'show-dot' : ""}><Link to='/blog'>Blog</Link></li>
+                <li onClick={handleClick} className={location.pathname === '/elevator-pitch' ? 'show-dot' : ""}><Link to='/elevator-pitch'>Elevator Pitch</Link></li>
             </ul>
         </div>
     )

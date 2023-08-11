@@ -6,8 +6,11 @@ function App() {
   return (
       <div className="App">
         <Navbar />
+        <div style={{minHeight:'90vh'}}>
+
         <AnimatedRoutes />
-        <Footer />
+        </div>
+        {/* <Footer /> */}
       </div>
   );
 }

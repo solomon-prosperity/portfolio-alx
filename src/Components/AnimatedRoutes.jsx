@@ -14,10 +14,10 @@ export default function AnimatedRoutes() {
             <AnimatePresence>
                 <Routes location={location} key={location.pathname}>
                     <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
+                    <Route path="/bio" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/projects" element={<Projects />} />
-                    <Route path="/blog" element={<Blog />} />
+                    <Route path="/portfolio" element={<Projects />} />
+                    <Route path="/elevator-pitch" element={<Blog />} />
                 </Routes>
             </AnimatePresence>
         </div>

@@ -1,7 +1,15 @@
 .c-orange {
     color: #FDB827;
 }
-
+.about{
+    max-width: 80%;
+    margin: auto;
+    
+}
+.about p{
+    line-height: 20px;
+    font-size: 16px;
+}
 .about-top {
     display: flex;
     justify-content: space-between;
@@ -66,8 +74,13 @@
     .about {
         display: flex;
         flex-direction: column;
-    }
+        max-width: 95%;
 
+    }
+    .about p{
+        line-height: 18px;
+        font-size: 12px;
+    }
     .about-top {
         margin-top: -40px;
         flex-direction: column;

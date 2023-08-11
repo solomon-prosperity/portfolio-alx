@@ -5,8 +5,6 @@ import contactImage from '../images/Saly-14contact.svg'
 
 
 export default function Contact() {
-
-  console.log('i am contact renderdd');
   const [formData, setFormData] = useState({
     name:'',
     email:'',
@@ -25,7 +23,6 @@ export default function Contact() {
 
   function submitHandler(e){
     e.preventDefault()
-    console.log(formData);
   }
  
 

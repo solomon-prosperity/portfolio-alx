@@ -4,6 +4,7 @@ import homeImage from '../images/Saly-13homepic.svg'
 import { useNavigate } from 'react-router-dom';
 import '../styles/home.css'
 import TypewriterComponent from 'typewriter-effect';
+import { userData } from '../data/userData';
 
 export default function Home() {
   const navigate = useNavigate()
@@ -26,7 +27,7 @@ export default function Home() {
                 .pauseFor(1000)
                 .typeString('<h1>i am</h1>')
                 .pauseFor(1000)
-                .typeString('<h1>Afuwape Ayodeji<h1>')
+                .typeString(`<h1>${userData.name}<h1>`)
                 .start()
             }
             }
@@ -34,10 +35,10 @@ export default function Home() {
         </div>
         {/* <h1>  </h1>
         <h1>i am Afuwape Ayodeji</h1> */}
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>{userData.tagLine}</p>
         <div className="buttons">
-          <button className='style-btn' onClick={() => navigate('/about')}>About me</button>
-          <button className='style-btn' onClick={() => navigate('/projects')} >😮 Let’s see portfolios</button>
+          <button className='style-btn' onClick={() => navigate('/bio')}>About me</button>
+          <button className='style-btn' onClick={() => navigate('/portfolio')} >😮 Let’s see portfolios</button>
 
         </div>
       </div>
