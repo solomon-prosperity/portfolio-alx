@@ -56,10 +56,10 @@ form{
     margin-bottom: 80px;
 }
 
-button{
+/* button{
     margin-top: 20px;
     width: 270px;
-}
+} */
 
 @media screen and  (max-width: 480px) {
     .contact{

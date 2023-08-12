@@ -9,7 +9,7 @@ export default function Project({ project }) {
         {project.youtubeUrl ? (
           <iframe
             className="yt-if"
-            src="https://www.youtube.com/embed/C5p7r96QMeQ"
+            src="https://www.youtube.com/embed/0PMhMLaC4L8"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

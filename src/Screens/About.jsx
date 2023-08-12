@@ -18,7 +18,8 @@ export default function About() {
         </div>
         <div>
           <h1>
-            I'm {userData.name}, A <span className="c-orange">Data Scientist.</span>{' '}
+            I'm {userData.name}, A <span className="c-orange">Lawyer</span>{' '}
+            and <span className="c-orange">Cloud</span>{' '} Devops Engineer
           </h1>
         </div>
       </div>
