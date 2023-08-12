@@ -72,7 +72,7 @@ export default function Contact() {
               />
             </div>
 
-            <button className='style-btn'>Send</button>
+            <button className='contact-btn'>Send</button>
           </form>
         </div>
       </div>
