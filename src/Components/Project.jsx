@@ -9,7 +9,7 @@ export default function Project({ project }) {
         {project.youtubeUrl ? (
           <iframe
             className="yt-if"
-            src="https://www.youtube.com/embed/c72tIQTfQl8"
+            src="https://www.youtube.com/embed/_TGzebVh0Tk"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -21,9 +21,9 @@ export default function Project({ project }) {
       </div>
       <div className="p-body">
         <h3>{project.title}</h3>
-        <p>{project.description}</p>
+        <p>{project.youtubeUrl ? userData.youtubeDescription : project.description}</p>
         <a href={project.link} target="_blank" rel="noreferrer">
-          View project <span>{" "}</span> <i className="fa-solid fa-up-right-from-square"></i>
+        {project.youtubeUrl ? "View Project Video" : "View Project PDF"} <span>{" "}</span> <i className="fa-solid fa-up-right-from-square"></i>
         </a>
       </div>
     </div>
