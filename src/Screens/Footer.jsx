@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer style={{marginTop:'2rem'}}>
       <div className="icons">
-        <a href="https://github.com/yvprosper" target="_blank" rel="noreferrer"> <img src={githubLogo} alt="git" /> </a>
+        {/* <a href="https://github.com/yvprosper" target="_blank" rel="noreferrer"> <img src={githubLogo} alt="git" /> </a> */}
         <a href="https://twitter.com/crownis_bryno" target="_blank" rel="noreferrer"> <img src={twitterLogo} alt="twitter" /></a>
         <a href={userData.linkdin} target="_blank" rel="noreferrer">
           {' '}

@@ -1,6 +1,6 @@
 import Navbar from "./Screens/Navbar";
 import AnimatedRoutes from "./Components/AnimatedRoutes";
-import Footer from "./Screens/Footer";
+// import Footer from "./Screens/Footer";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
 
         <AnimatedRoutes />
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
   );
 }

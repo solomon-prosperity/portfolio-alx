@@ -32,7 +32,7 @@ export default function Navbar() {
 
                 <li onClick={handleClick} className={location.pathname === '/elevator-pitch' ? 'show-dot' : ""}><Link to='/elevator-pitch'>Elevator Pitch</Link></li>
 
-                <li onClick={handleClick} className={location.pathname === '/contact' ? 'show-dot' : ""}><Link to='/contact'>Contact Me</Link></li>
+                {/* <li onClick={handleClick} className={location.pathname === '/contact' ? 'show-dot' : ""}><Link to='/contact'>Contact Me</Link></li> */}
 
             </ul>
         </div>
