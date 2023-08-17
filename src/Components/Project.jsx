@@ -2,6 +2,23 @@ import React from 'react';
 import '../styles/project.css';
 import { userData } from '../data/userData';
 
+function getAction (data) {
+  let action;
+  if (data.youtubeUrl && !data.pitchUrl) return action = "View Project Video"
+  if (data.pitchUrl) return action = "View on Youtube"
+   action = "View Project PDF"
+   return action
+}
+
+function getDesc (data) {
+  let desc;
+  if (data.youtubeUrl && !data.pitchDescription) return desc = userData.youtubeDescription
+  if (data.pitchDescription) return desc = data.pitchDescription
+   desc = data.description
+   return desc
+}
+
+
 export default function Project({ project }) {
   return (
     <div className="project">
@@ -9,7 +26,7 @@ export default function Project({ project }) {
         {project.youtubeUrl ? (
           <iframe
             className="yt-if"
-            src="https://www.youtube.com/embed/C5p7r96QMeQ"
+            src= {project.pitchUrl ? project.pitchUrl : project.youtubeUrl}
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -21,9 +38,9 @@ export default function Project({ project }) {
       </div>
       <div className="p-body">
         <h3>{project.title}</h3>
-        <p>{project.youtubeUrl ? userData.youtubeDescription : project.description}</p>
-        <a href={project.link} target="_blank" rel="noreferrer">
-        {project.youtubeUrl ? "View Project Video" : "View Project PDF"} <span>{" "}</span> <i className="fa-solid fa-up-right-from-square"></i>
+        <p>{getDesc(project)}</p>
+        <a href={ project.youtubeUrl ? project.link : project.slideLink } target="_blank" rel="noreferrer">
+        {getAction(project)} <span>{" "}</span> <i className="fa-solid fa-up-right-from-square"></i>
         </a>
       </div>
     </div>
