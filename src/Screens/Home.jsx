@@ -41,7 +41,7 @@ export default function Home() {
             }}
           />
         </div>
-        <p style={{ display: 'none', fontSize: "15px", textAlign: "center", marginLeft: "20px" }}>A <span className="c-orange">Professional</span> Data <span className="c-orange">Scientist</span></p>
+        <p style={{ display: 'none', fontSize: "20px", textAlign: "center", marginLeft: "20px" }}>A <span className="c-orange">Professional</span> Data <span className="c-orange">Scientist</span></p>
         <div className="buttons">
           <button onClick={() => navigate('/bio')}>About me</button>
           <button onClick={() => navigate('/portfolio')}>😮 check out my portfolio</button>
