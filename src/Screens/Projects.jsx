@@ -53,7 +53,7 @@ export default function Projects() {
               description:  userData.slideDescription,
               title: userData.slideTitle,
               image: userData.slideImage,
-              link: userData.slideLink,
+              slideLink: userData.slideLink,
             }}
           />
         </div>

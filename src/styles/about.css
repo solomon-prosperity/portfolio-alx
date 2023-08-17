@@ -34,7 +34,7 @@
     font-weight: 700;
     font-size: 45px;
     line-height: 54px;
-    text-align: left;
+    /* text-align: left; */
     /* margin-top: 100px; */
     max-width: 500px;
 }
@@ -62,8 +62,23 @@
 }
 
 
+.elevator-pitch {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+  }
 
-
+  .pitch-video {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .slide{
+    border-radius: 20px;
+    overflow: hidden;
+  }
 
 
 

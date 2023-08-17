@@ -31,7 +31,7 @@ export default function Home() {
           <TypewriterComponent
             onInit={(typewriter) => {
               typewriter
-                .typeString('<h1>Hi there 👋</h1>')
+                .typeString('<h1>Hi There 👋</h1>')
                 .pauseFor(1000)
                 .typeString('<h1 class="c-orange">meet</h1>')
                 .pauseFor(1000)
