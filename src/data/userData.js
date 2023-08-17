@@ -9,7 +9,7 @@ export const userData = {
   Thank you for embarking on this exciting transformational ride with me.`,
   name: 'Janet Adesola',
   tagLine: ` A lawyer and a devops cloud engineer`,
-  youtubeUrl: 'https://youtu.be/0PMhMLaC4L8',
+  youtubeUrl: 'https://www.youtube.com/embed/0PMhMLaC4L8',
   youtubeDescription: `This solution proves effective
   as it actively promotes and
   guides individuals towards
@@ -38,5 +38,9 @@ export const userData = {
   elevator1: `I'm Janet Adesola, a motivated individual with a robust understanding of cybersecurity and a burning desire to make an impact in the AWS Cloud Computing arena. My journey has taken me through the intricacies of cybersecurity principles, equipping me with a foundation to ensure secure cloud environments.`,
   elevator2: `Through immersive hands-on experience, I've grasped the essentials of safeguarding digital assets and maintaining data integrity. Now, my sights are set on an entry-level role in AWS Cloud Computing, where I aim to seamlessly merge my cybersecurity insights with AWS services.`,
   elevator3: `I'm excited to join a forward-thinking team, actively contributing to the realm of AWS with a focus on security, compliance, and innovation. With an unwavering commitment to staying at the forefront of technological advancements, I'm poised to thrive in the dynamic and ever-evolving landscape of AWS Cloud Computing.`,
-  linkdin:'https://www.linkedin.com/in/prosper-eravwuvieke-25b534163/'
+  linkdin:'https://www.linkedin.com/in/prosper-eravwuvieke-25b534163/',
+  pitchDescription: `I'm Janet Adesola, a motivated individual with a robust understanding of cybersecurity and a burning desire to make an impact in the AWS Cloud Computing arena. My journey has taken me through the intricacies of cybersecurity principles, equipping me with a foundation to ensure secure cloud environments. Through immersive hands-on experience, I've grasped the essentials of safeguarding digital assets and maintaining data integrity. Now, my sights are set on an entry-level role in AWS Cloud Computing, where I aim to seamlessly merge my cybersecurity insights with AWS services.
+  I'm excited to join a forward-thinking team, actively contributing to the realm of AWS with a focus on security, compliance, and innovation. With an unwavering commitment to staying at the forefront of technological advancements, I'm poised to thrive in the dynamic and ever-evolving landscape of AWS Cloud Computing.
+  `,
+  pitchTitle: `Janet Adesola's Elevator Pitch`
 };
