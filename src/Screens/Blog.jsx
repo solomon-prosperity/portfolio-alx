@@ -40,7 +40,7 @@ export default function Blog() {
                     title: userData.pitchTitle,
                     youtubeUrl: userData.youtubeUrl,
                     link: userData.youtubeUrl,
-                    pitchUrl: "https://www.youtube.com/embed/511YcdgvP5s?feature=share"
+                    pitchUrl: "https://www.youtube.com/embed/JW6ldiIntLM?feature=share"
                   }}
                 />
               </div>
