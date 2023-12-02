@@ -10,6 +10,26 @@
     height: 40rem;
 }
 
+.res-btn{
+    cursor: pointer;
+    width: 100%;
+    margin: 2rem 0;
+    background: #fdb827;
+    border: none;
+    outline: none;
+    padding: 1rem 4.5rem;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.skills{
+    margin: 2rem 0;
+
+}
+.skills li{
+    color: white;
+}
+
 .p-body {
 
     display: flex;
@@ -73,5 +93,12 @@
     margin-bottom: -20px;
     /* object-fit: cover; */
     border-radius: 19px;
+}
+
+.res-btn{
+
+    padding: 1rem;
+
+    font-size: 14px;
 }
 }
