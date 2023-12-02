@@ -57,7 +57,33 @@ export default function Projects() {
             }}
           />
         </div>
+
+       
       
+      </div>
+      <div className="skills">
+        <h1>Some of my awesome Skills</h1>
+        <ul>
+          {userData.skills.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="skills" style={{textAlign:'center'}}>
+        <h1>Download My Resume</h1>
+        <h4>
+          Explore my credentials, expertise, and professional journey in detail.
+        </h4>
+        <p>
+          Click the button below to download my resume and delve deeper into my
+          experience with AWS, cloud technologies, and more.
+        </p>
+
+        <section>
+          <a href={userData.resume}>
+            <button className="res-btn btn">View my Resume</button>
+          </a>
+        </section>
       </div>
     </motion.div>
   );
